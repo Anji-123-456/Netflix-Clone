@@ -1,0 +1,37 @@
+.footer-overall{
+   max-width: 1000px;
+    padding:30px 6%;
+    margin: 0 auto;
+}
+.img{
+    display: flex;
+    gap:10px;
+    cursor: pointer;
+}
+.img img{
+    width:25px;
+    margin-bottom:25px
+}
+.footer-overall ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:17px;
+}
+.footer-overall ul li{
+    list-style: none;
+}
+.copyright{
+    margin-top: 18px;
+    color:gray;
+    font-size: 10px;
+}
+@media (max-width:800px){
+.img img{
+    width:25px;
+}
+.footer-overall ul{
+    grid-template-columns: auto auto;
+    gap:8px;
+    font-size: 14px;
+}
+}
